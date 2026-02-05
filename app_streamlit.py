@@ -53,7 +53,7 @@ if st.button("🔮 Prever Conta de Luz"):
 
     try:
         res = requests.post(
-            "url = "https://previsor-de-conta-de-luz.onrender.com/prever",
+            url = "https://previsor-de-conta-de-luz.onrender.com/prever",
             json=payload
         )
 
