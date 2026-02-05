@@ -2,8 +2,10 @@ import streamlit as st
 import requests
 import pandas as pd
 import plotly.express as px
-import locale
+
 from datetime import datetime
+from babel.dates import format_date
+from datetime import date
 
 # =====================
 # CONFIGURAÇÕES GERAIS
@@ -14,7 +16,7 @@ st.set_page_config(
     layout="centered"
 )
 
-locale.setlocale(locale.LC_TIME, "pt_BR.UTF-8")
+
 
 # =====================
 # TÍTULO
